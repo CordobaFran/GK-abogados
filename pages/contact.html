@@ -16,56 +16,38 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
             <li class="nav-item active">
-            <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="/pages/contact.html">contact</a>
+            <a class="nav-link" href="contact.html">contact</a>
             </li>
         </ul>
         </div>
     </nav>
-    <form >
-        <input type="text" >
-        <input type="email" >
-        
-        <button type="submit">Send</button>
-    </form>
     <!-- Default form contact -->
-    <form class="text-center border border-light p-5" action="https://formsubmit.co/610b85bce9e466a1a64dc804dc8cca47" method="POST">
-
-        <p class="h4 mb-4">Contact us</p>
-
-        <!-- Name -->
-        <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" name="name" required>
-
-        <!-- Email -->
-        <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="email" required>
-        <input type="hidden" name="_captcha" value="false">
-        <!-- Subject -->
-        <label>Subject</label>
-        <select class="browser-default custom-select mb-4">
-            <option value="" disabled>Choose option</option>
-            <option value="1" selected>Feedback</option>
-            <option value="2">Report a bug</option>
-            <option value="3">Feature request</option>
-            <option value="4">Feature request</option>
-        </select>
-
-        <!-- Message -->
-        <div class="form-group">
-            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
+                <form class="text-center border border-light p-5 mx-auto" action="https://formsubmit.co/francocordobafs@gmail.com" method="POST">
+                    <p class="h4 mb-4">Contáctenos</p>
+                    <!-- Name -->
+                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" name="name" required>
+                    <!-- Email -->
+                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="email" required>
+                    
+                    <input type="text" name="_honey" style="display: none;">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://cordobafran.github.io/GK-abogados/pages/contact.html">
+                    <!-- Message -->
+                    <div class="form-group">
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message" name="Mensaje"></textarea>
+                    </div>
+                    <!-- Send button -->
+                    <button class="btn btn-info btn-block" type="submit">Send</button>
+                </form>
+            </div>
         </div>
-
-        <!-- Copy -->
-        <div class="custom-control custom-checkbox mb-4">
-            <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-            <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
-        </div>
-
-        <!-- Send button -->
-        <button class="btn btn-info btn-block" type="submit">Send</button>
-
-    </form>
+    </div>
     <!-- Default form contact -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
