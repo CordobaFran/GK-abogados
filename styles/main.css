@@ -25,6 +25,22 @@
     width: 30%;
 }
 
+/* SECCION DE NUESTRA HISTORIA */
+
+#nosotros{
+    text-align: center;
+}
+
+.nosotros-texto{
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+}
+
+#nosotros-fotografia{
+    width: 70%;
+}
+
 @media only screen and (max-width: 750px) {
 
     .servicio-card{
