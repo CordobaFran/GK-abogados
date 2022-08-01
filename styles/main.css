@@ -1,3 +1,33 @@
+/* BODY - INDEX */
+.index-body h1{
+    font-size: 48px;
+}
+.index-body section p, .index-body .figure h3{
+    font-size: 24px;
+}
+
+.index-body .index-body__subtitle, .index-body__contact__title{
+    font-size: 20px;
+}
+
+.index-body .figure p, .index-body .index-body__contact__p{
+    font-size: 16px;
+}
+
+.index-body__figure{
+    width: 292px;
+    height: 260px;
+    margin: 8px 8px;
+}
+
+.index-body__hr{
+    margin: 63px 0px;
+    width: 100px;
+    border-width: 4px;
+    border-radius: 2px;
+}
+
+
 /* FOOTER */
 
 .footer-container{
