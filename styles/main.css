@@ -27,6 +27,21 @@
     border-radius: 2px;
 }
 
+/* CONTACT */
+.conctact-body__title{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.conctact-body__p .contact-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.conctact-body__p .contact-slogan{
+    font-size: 20px;
+    font-weight: 300;
+}
 
 /* FOOTER */
 
