@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/*
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'DM Sans', sans-serif;
+*/
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Barlow Condensed';
+}
+
+p {
+    font-family: 'DM Sans';
+}
+
 /* BODY - INDEX */
 .index-body h1{
     font-size: 48px;
@@ -46,7 +61,14 @@
 /* FOOTER */
 
 .footer-container{
-    background-color: #D3D3D3;
+    background-color: #FFF3E0;
+    padding-bottom: 3rem;
+    padding-right: 12rem;
+    padding-left: 12rem;
+}
+
+.footer-container h5 {
+    color: #1B5459;
 }
 
 .footer-logo{
@@ -90,5 +112,16 @@
 
     .servicio-card{
         width: 100%;
+    }
+
+    .equipo-card-container{
+        flex-wrap: wrap;
+    }
+
+    .footer-container{
+        background-color: #FFF3E0;
+        padding-bottom: 1rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
     }
   }
