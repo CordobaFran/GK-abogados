@@ -6,32 +6,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         <link rel="stylesheet" href="../styles/main.css">
+        <link rel="icon" href="../img/icons/Icon.svg">
         <title>Nuestra historia</title>
     </head>
     <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand mx-3" href="../index.html"><img src="../img/logo-navbar.svg" alt="logo" class="img-fluid"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="d-lg-flex flex-lg-row-reverse collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                <a class="nav-link mx-4 active" aria-current="page" href="aboutus.html">Quienes somos</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link mx-4" href="services.html">Servicios</a>
-                </li>
-                <li class="nav-item mx-4">
-                <a class="nav-link" href="clients.html">Clientes</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link mx-4" href="contact.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-dark navbar-expand-lg bg-light pt-0">
+            <div class="container-fluid index-navbar">
+                <a class="d-flex justify-content-center navbar-brand mx-5" href="../index.html"><img src="../img/logo-navbar-light.svg" alt="logo" class="index-navbar_logo img-fluid my-3 mx-5"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-lg-flex flex-lg-row collapse navbar-collapse index-navbar_buttons_div" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 active" aria-current="page" href="aboutus.html">¿Quiénes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="services.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="clients.html">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="contact.html">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
             </div>
-        </div>
         </nav>
         <!-- CONTAINER PARA EL CONTENIDO -->
         <div id="nosotros" class="container my-5" >
@@ -97,47 +98,34 @@
             </div>
         </div>
         <!-- FOOTER -->
-        <div class="container-fluid footer-container pt-5">
-            <footer class="row justify-content-between px-5 gap-2">
-              <div class="col-lg-3 col-sm-12">
-                <h5 class="mb-4">CONTACTO</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-3"><a href="mailto:abogadosGK@gmail.com" class="nav-link p-0 text-muted d-flex">
-                    <img class="icono-redsocial" src="../img/icons/email.svg">
-                    <p class="ms-4 mb-0" >abogadosGK@gmail.com</p>
-                  </a></li>
-                  <li class="nav-item mb-3"><a class="nav-link p-0 text-muted d-flex">
-                    <img class="icono-redsocial" src="../img/icons/ubicacion.svg">
-                    <p class="ms-4 mb-0" >Córdoba, Argentina</p>
-                  </a></li>
-                  <li class="nav-item mb-3"><a href="tel:+54 341 396 1168" class="nav-link p-0 text-muted d-flex">
-                    <img class="icono-redsocial" src="../img/icons/contacto.svg" alt="">
-                    <p class="ms-4 mb-0" >+54 341 593 8004</p>
-                  </a></li>
-                  <li class="nav-item mb-3"><a target="_blank" href="https://api.whatsapp.com/send?phone=543413961168" class="nav-link p-0 text-muted d-flex">
-                    <img class="icono-redsocial" src="../img/icons/whatsapp.svg" alt="">
-                    <p class="ms-4 mb-0" >+54 341 396 1168</p>
-                  </a></li>
-                </ul>
-              </div>
-              <div class="col-lg-3 col-sm-12">
-                <h5 class="mb-4">NAVEGACIÓN</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-3"><a href="../index.html" class="nav-link p-0 text-muted d-flex">Inicio</a></li>
-                  <li class="nav-item mb-3"><a href="services.html" class="nav-link p-0 text-muted d-flex">Servicios</a></li>
-                  <li class="nav-item mb-3"><a href="clients.html" class="nav-link p-0 text-muted d-flex">Cliente</a></li>
-                  <li class="nav-item mb-3"><a href="contact.html" class="nav-link p-0 text-muted d-flex">Contacto</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-3 offset-2 my-2 col-sm-12 d-flex justify-content-lg-end align-items-end justify-content-sm-start"  >
-                <div>
-                  <img class="footer-logo py-5" src="../img/logo-navbar.svg" alt="">
-                  <ul class="list-unstyled d-flex justify-content-lg-end justify-content-sm-start my-3">
-                    <li class="ms-3"><a class="link-dark" target="_blank" href="#"><img class="icono-redsocial" src="../img/icons/Facebook.svg" alt="icono de Facebook"></a></li>
-                    <li class="ms-3"><a class="link-dark" target="_blank" href="https://www.instagram.com/gk.abogados/"><img class="icono-redsocial" src="../img/icons/Instagram.svg" alt="icono de Instagram"></a></li>
-                    <li class="ms-3"><a class="link-dark" target="_blank" href="https://www.linkedin.com/company/estudio-jur%C3%ADdico-t%C3%A9cnico-garc%C3%ADa-maranges/"><img class="icono-redsocial" src="../img/icons/linkedin.svg" alt="icono de LinkedIn"></a></li>
+        <div class="container-fluid footer-container px-5">
+            <footer class="py-3">
+              <div class="row">
+                <div class="col-3">
+                  <h5 class="mb-4">Contacto</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-3"><a href="mailto:abogadosGK@gmail.com" class="nav-link p-0 text-muted d-flex">
+                      <img class="icono-redsocial" src="../img/icons/mail.png">
+                      <p class="ms-4 mb-0" >abogadosGK@gmail.com</p>
+                    </a></li>
+                    <li class="nav-item mb-3"><a href="tel:+54 341 396 1168" class="nav-link p-0 text-muted d-flex align-items-center">
+                      <img class="icono-redsocial" src="../img/icons/phone.png" alt="">
+                      <p class="ms-4 mb-0" >+54 341 396 1168 <br> +54 341 593 8004</p>
+                    </a></li>
+                    <li class="nav-item mb-3"><a href="https://api.whatsapp.com/send?phone=543413961168" class="nav-link p-0 text-muted d-flex">
+                      <img class="icono-redsocial" src="../img/icons/whatsapp.png" alt="">
+                      <p class="ms-4 mb-0" >+54 341 396 1168</p>
+                    </a></li>
                   </ul>
                 </div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center my-2">
+                <img class="footer-logo" src="../img/logo-negro.png" alt="">
+                <ul class="list-unstyled d-flex mb-0">
+                  <li class="ms-3"><a class="link-dark" href="#"><img class="icono-redsocial" src="../img/icons/facebook.png" alt="icono de Facebook"></a></li>
+                  <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/gk.abogados/"><img class="icono-redsocial" src="../img/icons/instagram.png" alt="icono de Instagram"></a></li>
+                  <li class="ms-3"><a class="link-dark" href="https://www.linkedin.com/company/estudio-jur%C3%ADdico-t%C3%A9cnico-garc%C3%ADa-maranges/"><img class="icono-redsocial" src="../img/icons/linkedin.png" alt="icono de LinkedIn"></a></li>
+                </ul>
               </div>
             </footer>
           </div>

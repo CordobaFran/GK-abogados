@@ -13,6 +13,76 @@ p {
     font-family: 'DM Sans';
 }
 
+/* NAVBAR */
+.index-navbar{
+    background-color: #1B5459;
+}
+
+.index-navbar_logo{
+    width: 160px;
+    margin-left: 10px;
+}
+
+.index-navbar li a{
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+.index-navbar li a:hover{
+    background-color: #193D40;
+    color: #ffffff;
+}
+
+.index-navbar_buttons_div li a{
+    justify-content: center;
+    font-family: 'Barlow Condensed';
+}
+
+.index-navbar li a:focus{
+    border-bottom: solid 5px #ffffff;
+}
+
+.active{
+    background-color: #1B5459;
+    border-bottom: solid 1px #ffffff;
+    color: #ffffff !important;
+    font-weight: 400;
+    font-family: 'Barlow Condensed';
+}
+
+@media only screen and (min-width: 992px) {
+    .index-navbar_buttons_div, .index-navbar_buttons_div li, .index-navbar_buttons_div li a{
+        display: flex;
+        height: 90.3px;
+        align-items: center;
+    }
+    
+    .index-navbar_buttons_div li a{
+        width: 140px;
+    }
+    
+    .index-navbar li a:hover{
+        height: 90.3px;
+        align-items: center;
+    }
+
+    .active{
+        border-bottom: solid 5px;
+    }
+}
+
+/* BUTTONS */
+.button{
+    background-color: #1B5459;
+    color: #FFFFFF;
+}
+
+.button:hover{
+    background-color: #FFF3E0;
+    color: #1B5459;
+}
+
 /* BODY - INDEX */
 .index-body h1{
     font-size: 48px;
@@ -33,12 +103,14 @@ p {
     width: 292px;
     height: 260px;
     margin: 8px 8px;
+    background-color: #1B5459 !important;
+    color: #ffffff;
 }
 
 .index-body__hr{
     margin: 63px 0px;
     width: 100px;
-    border-width: 4px;
+    border: solid 4px #1B5459;
     border-radius: 2px;
 }
 
