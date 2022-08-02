@@ -13,6 +13,52 @@ p {
     font-family: 'DM Sans';
 }
 
+/* NAVBAR */
+.index-navbar{
+    background-color: #1B5459;
+}
+
+.index-navbar_logo{
+    width: 160px;
+}
+
+.index-navbar li a{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.index-navbar_buttons_div, .index-navbar_buttons_div li, .index-navbar_buttons_div li a{
+    display: flex;
+    height: 90.3px;
+    align-items: center;
+}
+
+.index-navbar_buttons_div li a{
+    width: 180px;
+    justify-content: center;
+    font-family: 'Barlow Condensed';
+}
+
+.index-navbar li a:hover{
+    background-color: #193D40;
+    color: #ffffff;
+    height: 90.3px;
+    align-items: center;
+}
+
+.index-navbar li a:focus{
+    border-bottom: solid 5px #ffffff;
+}
+
+.active{
+    background-color: #1B5459;
+    border-bottom: solid 5px #ffffff;
+    color: #ffffff !important;
+    font-weight: 400;
+    font-family: 'Barlow Condensed';
+}
+
+
 /* BODY - INDEX */
 .index-body h1{
     font-size: 48px;
