@@ -10,10 +10,11 @@
     <title>Contacto</title>
   </head>
   <body>
-    <nav class="navbar navbar-dark navbar-expand-lg bg-light pt-0">
-        <div class="container-fluid index-navbar">
-          <a class="d-flex justify-content-center navbar-brand mx-5" href="../index.html"><img src="../img/logo-navbar-light.svg" alt="logo" class="index-navbar_logo img-fluid my-3 mx-5"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-light py-0">
+      <div class="container-fluid index-navbar">
+        <a class="d-none d-md-flex justify-content-center navbar-brand mx-5" href="../index.html"><img src="../img/logo-navbar-light.svg" alt="logo" class="index-navbar_logo img-fluid my-3 mx-5"></a>
+        <a class="d-flex d-md-none justify-content-center navbar-brand" href="../index.html"><img src="../img/logo-navbar-light-small.svg" alt="logo" class="index-navbar_logo-small img-fluid my-3 mx-5"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="d-lg-flex flex-lg-row collapse navbar-collapse index-navbar_buttons_div" id="navbarSupportedContent">
@@ -35,34 +36,35 @@
         </div>
       </nav>
     <!-- Default form contact -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
-                <form class="text-center border border-light p-5 mx-auto" action="https://formsubmit.co/francocordobafs@gmail.com" method="POST">
-                    <div class="conctact-body__p">
-                        <p class="conctact-body__title">Contactanos</p>
-                        <p class="contact-subtitle">GARCIA KILSTEIN MARANGES <br>& Asociados</p>
-                        <p class="contact-slogan mb-5">estamos para ayudarte</p>
-                    </div>
-                    <!-- Name -->
-                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" name="name" required>
-                    <!-- Email -->
-                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="email" required>
-                    <!-- Phone -->
-                    <input type="phone" id="defaultContactFormPhone" class="form-control mb-4" placeholder="Teléfono" name="phone" required>
+    <div class="container-fluid mt-0 px-0">
+        <section class="contact-section__separator"></section>
+        <section class="row d-flex flex-column contact-section mx-0">
+          <div class="col-12 col-md-8 col-lg-5 mt-5 mx-auto">
+            <h1 class="text-center index-body__contact__title my-5">Contáctenos</h1>
+            <p class="text-center index-body__contact__p mx-auto">García Kilstein, Maranges & Asociados</p> 
+            <p class="text-center index-body__contact__p mx-auto">Estamos para ayudarle</p>
+          </div>
+          <div class="col-12 col-md-10 col-lg-8 col-xl-6 mx-auto">
+            <form class="text-center p-5 mx-auto" action="https://formsubmit.co/francocordobafs@gmail.com" method="POST">
+                <!-- Name -->
+                <input type="text" id="defaultContactFormName" class="form-control mb-4 rounded-0" placeholder="Nombre" name="name" required>
+                <!-- Email -->
+                <input type="email" id="defaultContactFormEmail" class="form-control mb-4 rounded-0" placeholder="E-mail" name="email" required>
+                <!-- Phone -->
+                <input type="phone" id="defaultContactFormPhone" class="form-control mb-4 rounded-0" placeholder="Teléfono" name="phone" required>
 
-                    <input type="text" name="_honey" style="display: none;">
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="https://cordobafran.github.io/GK-abogados/pages/contact.html">
-                    <!-- Message -->
-                    <div class="form-group">
-                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message" name="Mensaje"></textarea>
-                    </div>
-                    <!-- Send button -->
-                    <button class="btn btn-secondary btn-block w-100 mt-3" type="submit">Enviar</button>
-                </form>
-            </div>
-        </div>
+                <input type="text" name="_honey" style="display: none;">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://cordobafran.github.io/GK-abogados/pages/contact.html">
+                <!-- Message -->
+                <div class="form-group">
+                    <textarea class="form-control rounded-0 mb-4" id="exampleFormControlTextarea2" rows="3" placeholder="Mensaje" name="Mensaje"></textarea>
+                </div>
+                <!-- Send button -->
+                <button class="button btn btn-secondary btn-block w-100" type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
     </div>
     <!-- Default form contact -->
         <!-- FOOTER -->
