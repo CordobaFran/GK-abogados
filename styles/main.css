@@ -451,7 +451,11 @@ p {
         padding-right: 4rem;
         padding-left: 4rem;
     }
-}
+
+    #servicios-container h1{
+        font-size: 24px;
+        }
+    }
 
 /* SECCION DE SERVICIOS */
 #servicios-container section{
