@@ -229,8 +229,6 @@ p {
     
 }
 
-
-
 /* CONTACT */
 .contact-section__separator{
     background-color: #193D40;
@@ -285,6 +283,13 @@ p {
 
 .clients-section__clients{
     background-color: #FFFFFF;
+}
+
+@media only screen and (max-width: 750px) {
+    .clients-section__title h1{
+        font-size: 36px;
+        color: #FFF3E0;
+    }
 }
 
 
