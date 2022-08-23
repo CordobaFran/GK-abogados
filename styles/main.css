@@ -49,6 +49,14 @@ p {
     border-bottom: solid 5px #ffffff;
 }
 
+.nav-tel__background{
+    background-color: #FFFFFF;
+}
+.nav-tel{
+    font-size: 18px;
+    font-weight: 500;
+}
+
 .active{
     background-color: #1B5459;
     border-bottom: solid 1px #ffffff;
