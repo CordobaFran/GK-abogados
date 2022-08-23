@@ -328,6 +328,13 @@ p {
     height: fit-content;
 }
 
+.footer-div__wsap{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+}
+
+
 
 
 /* SECCION DE NUESTRA HISTORIA */
