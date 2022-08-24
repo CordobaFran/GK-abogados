@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="../styles/main.css">
         <link rel="icon" href="../img/icons/Icon.svg">
         <title>Clientes</title>
@@ -52,13 +53,13 @@
             </div>
             <div class="d-flex flex-column mx-auto justify-content-center clients-section__clients col-10 my-5">
               <div class="d-flex flex-column flex-wrap justify-content-center flex-md-row">
-                <div class="d-flex clients-card justify-content-center">
+                <div class="d-flex clients-card justify-content-center" data-aos="zoom-in" data-aos-delay="100">
                   <img src="../img/fotos/ozono-group.png" alt="ozono">
                 </div>
-                <div class="d-flex clients-card justify-content-center">
+                <div class="d-flex clients-card justify-content-center" data-aos="zoom-in" data-aos-delay="300">
                   <img src="../img/fotos/grupo-gekko.png" alt="gekko">
                 </div>
-                <div class="d-flex clients-card justify-content-center">
+                <div class="d-flex clients-card justify-content-center" data-aos="zoom-in" data-aos-delay="500">
                   <img src="../img/fotos/el-despertar.png" alt="despertar">
                 </div>
               </div>
@@ -119,5 +120,9 @@
           </footer>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    </body>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+      </body>
 </html>
